@@ -9,8 +9,10 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
-      - uses: android-actions/setup-android@v2
-      - run: cd ThienX && gradle wrapper && chmod +x gradlew && ./gradlew assembleDebug
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+      - name: Build
+        run: cd ThienX && gradle wrapper && chmod +x gradlew && ./gradlew assembleDebug
       - uses: actions/upload-artifact@v3
         with:
           name: ThienX-apk
