@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">THIÊN X</string>
+    <string name="key_hint">Nhập key của bạn…</string>
+    <string name="activate">KÍCH HOẠT</string>
+    <string name="get_key">LẤY KEY</string>
+    <string name="features">TÍNH NĂNG</string>
+    <string name="home">TRANG CHỦ</string>
+    <string name="profile">HỒ SƠ</string>
+    <string name="nang_cao">NÂNG CAO</string>
+    <string name="overlay">OVERLAY</string>
+    <string name="save_config">LƯU CẤU HÌNH</string>
+    <string name="restore">KHÔI PHỤC</string>
+</resources>
